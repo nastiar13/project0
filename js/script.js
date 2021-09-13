@@ -5,7 +5,7 @@ $('.page-scroll').on('click', function(e){
     var elementHref = $(href);
     
     $('html,body').animate({
-        scrollTop: elementHref.offset().top,
+        scrollTop: elementHref.offset().top-40,
     },1250,'easeInOutExpo')
 
     e.preventDefault();
