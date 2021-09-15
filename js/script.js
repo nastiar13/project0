@@ -10,3 +10,20 @@ $('.page-scroll').on('click', function(e){
 
     e.preventDefault();
 });
+
+
+// paralax ==================================================
+
+$(window).scroll(function() {
+    let wScroll = $(this).scrollTop();
+
+    $('.jumbotron img').css({
+        'transform': 'translate(0px, '+ wScroll/3 +'%)'
+    });
+    $('.jumbotron h1').css({
+        'transform': 'translate(0px, '+wScroll/3.9+'%)'
+    });
+    $('.jumbotron p').css({
+        'transform': 'translate(0px, '+wScroll/2+'%)'
+    });
+});
