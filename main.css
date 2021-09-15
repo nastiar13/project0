@@ -64,10 +64,4 @@ footer p {
 footer a {
   text-decoration: none;
 }
-
-@media screen and (max-width: 970px) {
-  .jumbotron img {
-    margin-bottom: 240px;
-  }
-}
 /*# sourceMappingURL=main.css.map */
