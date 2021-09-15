@@ -13,14 +13,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 780px;
+  height: 580px;
   overflow: hidden;
 }
 
 .jumbotron img {
   width: 200px;
   border: 5px solid #eaeaea;
-  margin-bottom: 240px;
+  margin-bottom: 140px;
   -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
