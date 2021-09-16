@@ -40,9 +40,37 @@ section {
     min-height: 600px;
     
 }
+.about {
+    opacity: 0;
+    transform: translate(0,0);
+    transition: 1s;
+    overflow: hidden;
+    
+} 
+.muncul {
+    opacity: 1;
+    transform: translate(0,40px);
+}
+
+
+
 .portfolio {
     background-color: #EEE;
+    margin-top: 47px;
+    .thumbnail {
+        opacity: 0;
+        transform: translateY(-40px);
+        transition: 0.7s;
+        
+    }
+    .thumbnail.appear {
+        opacity: 1;
+        transform: translateX(0);
+    }
     
+
+
+
 }
 .contact {
     min-height: 800px;
