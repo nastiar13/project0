@@ -17,7 +17,7 @@ body {
 }
 
 .jumbotron img {
-  width: 200px;
+  width: 15%;
   border: 5px solid #eaeaea;
   -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
           box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
