@@ -11,7 +11,8 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0px -140px;
+    
+    background-position-y: -100px;
     
     overflow: hidden;
 }
@@ -20,7 +21,8 @@ body {
 
 .jumbotron {
     img {
-        width: 15%;
+        margin-top: 50px;
+        width: 200px;
         border: 5px solid #eaeaea;
         
         box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
@@ -41,6 +43,7 @@ section {
     
 }
 .about {
+    height: 800px;
     opacity: 0;
     transform: translate(0,0);
     transition: 1s;
@@ -92,3 +95,31 @@ footer {
     }
 }
 
+@media (max-width:776px){
+    .jumbotron {
+        background-image: url(img/mountain.png);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-position-y: -100px;
+        height: 400px;
+        overflow: hidden;
+    }
+    
+    
+    
+    .jumbotron {
+        img {
+            margin-top: 50px;
+            width: 25%;
+            border: 2px solid #eaeaea;
+            
+            box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+        }
+        h1, p {
+            color: #eaeaea;
+            text-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+        }
+    }
+}
