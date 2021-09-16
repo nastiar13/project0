@@ -101,7 +101,7 @@ footer a {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position-x: -350px;
     background-position-y: -100px;
     height: 400px;
     overflow: hidden;
