@@ -39,7 +39,6 @@ section {
 }
 
 .about {
-  height: 800px;
   opacity: 0;
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
@@ -116,6 +115,9 @@ footer a {
   .jumbotron h1, .jumbotron p {
     color: #eaeaea;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  }
+  .about {
+    height: 800px;
   }
 }
 /*# sourceMappingURL=main.css.map */
